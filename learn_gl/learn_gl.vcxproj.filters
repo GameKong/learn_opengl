@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{7fbf2de9-a49e-4e22-b4d2-3b5e9074e68b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="def_gl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_test6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stencil_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blend_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_buffer_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cube_map_test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_buffer_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="anti_aliasing_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamma_correction_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader2.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader2.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader3.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader3.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader4.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shader4.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\lamp_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\lamp_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader2.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader2.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader3.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader3.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader4.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader4.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader5.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader5.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader6.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\light_shader6.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\model_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\model_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\stencil_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\stencil_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\stencil_shader2.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\blend_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\blend_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\frame_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\frame_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\cube_map_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\cube_map_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\cube_map_shader1.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\cube_map_shader1.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\uniform_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\uniform_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\geometry_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\geometry_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\instance_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\instance_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\anti_aliasing_shader.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\anti_aliasing_shader.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\geometry_shader.gs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\anti_aliasing_shader2.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\gamma_correction.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\gamma_correction.vs">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
